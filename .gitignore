@@ -1,0 +1,18 @@
+# Cache & Python
+__pycache__/
+*.py[cod]
+*.tmp
+.idea/
+.vscode/
+
+# File Excel kết quả do chương trình tạo ra (không đưa lên repo).
+# Chỉ chặn ở thư mục gốc — các file đáp án trong de_thi_ghk1_2025_2026/ vẫn được giữ.
+/*.xlsx
+
+# Ảnh bài làm gốc và ảnh đã chấm (bảo vệ riêng tư & dung lượng repo)
+anh_bai_lam/
+anh_da_cham/
+!docs/samples/
+
+# Ảnh kiểm tra tạm của test_thu_fix.py
+check_p1_perfect.jpg
